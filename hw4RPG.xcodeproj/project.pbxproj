@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		4D54D0C428624E5F00420778 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0C328624E5F00420778 /* main.swift */; };
+		4D54D0D528632A9300420778 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0D428632A9300420778 /* Player.swift */; };
+		4D54D0E7286334D700420778 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0E6286334D700420778 /* Game.swift */; };
+		4D54D0E92863351900420778 /* PlayerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0E82863351900420778 /* PlayerFactory.swift */; };
+		4D54D0EC2863358100420778 /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0EB2863358100420778 /* Weapon.swift */; };
+		4D54D0EE286335A300420778 /* Sword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0ED286335A300420778 /* Sword.swift */; };
+		4D54D0F0286335C200420778 /* Knife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0EF286335C200420778 /* Knife.swift */; };
+		4D54D0F22863360B00420778 /* MagusStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0F12863360B00420778 /* MagusStick.swift */; };
+		4D54D0F42863362300420778 /* AngelStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0F32863362300420778 /* AngelStick.swift */; };
+		4D54D0F62863364600420778 /* SpikedShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0F52863364600420778 /* SpikedShield.swift */; };
+		4D54D0F9286336C600420778 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0F8286336C600420778 /* Character.swift */; };
+		4D54D0FB286336F800420778 /* Warrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0FA286336F800420778 /* Warrior.swift */; };
+		4D54D0FD2863371E00420778 /* Magus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0FC2863371E00420778 /* Magus.swift */; };
+		4D54D0FF2863373400420778 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D54D0FE2863373400420778 /* Superhero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +38,19 @@
 /* Begin PBXFileReference section */
 		4D54D0C028624E5F00420778 /* hw4RPG */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw4RPG; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D54D0C328624E5F00420778 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4D54D0D428632A9300420778 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4D54D0E6286334D700420778 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		4D54D0E82863351900420778 /* PlayerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerFactory.swift; sourceTree = "<group>"; };
+		4D54D0EB2863358100420778 /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		4D54D0ED286335A300420778 /* Sword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sword.swift; sourceTree = "<group>"; };
+		4D54D0EF286335C200420778 /* Knife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knife.swift; sourceTree = "<group>"; };
+		4D54D0F12863360B00420778 /* MagusStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagusStick.swift; sourceTree = "<group>"; };
+		4D54D0F32863362300420778 /* AngelStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngelStick.swift; sourceTree = "<group>"; };
+		4D54D0F52863364600420778 /* SpikedShield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpikedShield.swift; sourceTree = "<group>"; };
+		4D54D0F8286336C600420778 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4D54D0FA286336F800420778 /* Warrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Warrior.swift; sourceTree = "<group>"; };
+		4D54D0FC2863371E00420778 /* Magus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magus.swift; sourceTree = "<group>"; };
+		4D54D0FE2863373400420778 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +84,37 @@
 			isa = PBXGroup;
 			children = (
 				4D54D0C328624E5F00420778 /* main.swift */,
+				4D54D0E6286334D700420778 /* Game.swift */,
+				4D54D0D428632A9300420778 /* Player.swift */,
+				4D54D0E82863351900420778 /* PlayerFactory.swift */,
+				4D54D0EA2863355200420778 /* Weapons */,
+				4D54D0F7286336A000420778 /* Characters */,
 			);
 			path = hw4RPG;
+			sourceTree = "<group>";
+		};
+		4D54D0EA2863355200420778 /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				4D54D0EB2863358100420778 /* Weapon.swift */,
+				4D54D0ED286335A300420778 /* Sword.swift */,
+				4D54D0EF286335C200420778 /* Knife.swift */,
+				4D54D0F12863360B00420778 /* MagusStick.swift */,
+				4D54D0F32863362300420778 /* AngelStick.swift */,
+				4D54D0F52863364600420778 /* SpikedShield.swift */,
+			);
+			path = Weapons;
+			sourceTree = "<group>";
+		};
+		4D54D0F7286336A000420778 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				4D54D0F8286336C600420778 /* Character.swift */,
+				4D54D0FA286336F800420778 /* Warrior.swift */,
+				4D54D0FC2863371E00420778 /* Magus.swift */,
+				4D54D0FE2863373400420778 /* Superhero.swift */,
+			);
+			path = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D54D0EC2863358100420778 /* Weapon.swift in Sources */,
+				4D54D0F42863362300420778 /* AngelStick.swift in Sources */,
+				4D54D0F9286336C600420778 /* Character.swift in Sources */,
+				4D54D0F62863364600420778 /* SpikedShield.swift in Sources */,
 				4D54D0C428624E5F00420778 /* main.swift in Sources */,
+				4D54D0E7286334D700420778 /* Game.swift in Sources */,
+				4D54D0FB286336F800420778 /* Warrior.swift in Sources */,
+				4D54D0FD2863371E00420778 /* Magus.swift in Sources */,
+				4D54D0D528632A9300420778 /* Player.swift in Sources */,
+				4D54D0F0286335C200420778 /* Knife.swift in Sources */,
+				4D54D0FF2863373400420778 /* Superhero.swift in Sources */,
+				4D54D0E92863351900420778 /* PlayerFactory.swift in Sources */,
+				4D54D0F22863360B00420778 /* MagusStick.swift in Sources */,
+				4D54D0EE286335A300420778 /* Sword.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

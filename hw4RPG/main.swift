@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
-
+// Launch of instance
+let start = Game()
+start.principalMenu()
